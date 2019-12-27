@@ -345,5 +345,49 @@
 	}
 }
 
+/*********************************************************************************
+*******************************			EXPERTS 			********************************
+**********************************************************************************/
+
+.experts {
+	padding: 130px 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	&__title {
+		font-size: 40px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		margin-bottom: 30px;
+		text-transform: uppercase;
+	}
+	&__text {
+		max-width: 760px;
+		margin: 0 auto 40px;
+	}
+	&__links {
+		a {
+			width: 196px;
+			color: #fff;
+			height: 51px;
+			text-align: center;
+			line-height: 47px;
+			border-radius: 25px;
+			border: solid 2px #fff;
+			font-size: 18px;
+			transition: all .3s;
+			&:hover {
+				background-color: #fff;
+				color: $bg;
+			}
+			& + a {
+				margin-left: 35px;
+			}
+		}
+	}
+}
+
 
 @import "media";
