@@ -544,4 +544,33 @@
 	}
 }
 
+/*********************************************************************************
+*******************************			CHECK 			**********************************
+**********************************************************************************/
+
+.check {
+	padding: 40px 0;
+	background-color: $bg;
+	&__link {
+		text-align: center;
+		color: #fff;
+		position: relative;
+		&::before {
+			content: "\f099";
+			position: absolute;
+			font-family: "icomoon";
+			left: 150px;
+			font-size: 35px;
+		}
+		a {
+			color: #fff;
+			&:hover {
+				color: #dadada;
+			}
+		}
+	}
+}
+
+
+
 @import "media";
