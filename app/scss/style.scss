@@ -397,7 +397,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 140px 0 150px;
+	padding: 140px 0 50px;
 	&__title {
 		text-align: center;
 		font-size: 22px;
@@ -701,6 +701,74 @@
 					a {
 						color: #fff;
 					}
+				}
+			}
+		}
+	}
+	&__about {
+		max-width: 260px;
+		width: 100%;
+		&-text {
+			font-size: 13px;
+			line-height: 22px;
+			color: $grey;
+			margin-bottom: 10px;
+		}
+		&-email {
+			&::before {
+				content: "\f003";
+			}
+		}
+		&-phone {
+			&::before {
+				content: "\f095";
+			}
+		}
+		&-address {
+			&::before {
+				content: "\f041";
+			}
+		}
+		a {
+			display: block;
+			width: 100%;
+			padding: 10px 25px;
+			border-top: solid 1px #3c3c3c;
+			position: relative;
+			transition: all .3s;
+			&:hover {
+				color: #fff;
+			}
+			&::before {
+				position: absolute;
+				font-size: 16px;
+				color: #4a4a4a;
+				font-family: "icomoon";
+				left: 0;
+			}
+		}
+	}
+	&__menu {
+		padding: 25px 0;
+		background-color: #292929;
+		&-inner {
+			display: flex;
+			justify-content: flex-end;
+		}
+		&-list {
+			li {
+				display: inline-block;
+				&:hover {
+					a {
+						color: #fff;
+					}
+				}
+				a {
+					color: #6b6b6b;
+					transition: all .3s;
+				}
+				& + li {
+					margin-left: 25px;
 				}
 			}
 		}
