@@ -389,5 +389,84 @@
 	}
 }
 
+/*********************************************************************************
+*******************************			CORE 			************************************
+**********************************************************************************/
+
+.core {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 140px 0 150px;
+	&__title {
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		color: $title;
+		margin-bottom: 20px;
+	}
+	&__text {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__item {
+		max-width: 350px;
+		padding-left: 65px;
+		margin-bottom: 50px;
+		position: relative;
+		&.audit {
+			&::before {
+				background-image: url(../img/icons/core-item-1.png);
+			}
+		}
+		&.business {
+			&::before {
+				background-image: url(../img/icons/core-item-2.png);
+			}
+		}
+		&.planing {
+			&::before {
+				background-image: url(../img/icons/core-item-3.png);
+			}
+		}
+		&.it {
+			&::before {
+				background-image: url(../img/icons/core-item-4.png);
+			}
+		}
+		&.tax {
+			&::before {
+				background-image: url(../img/icons/core-item-5.png);
+			}
+		}
+		&.advisory {
+			&::before {
+				background-image: url(../img/icons/core-item-6.png);
+			}
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 54px;
+			height: 54px;
+			background-position: top left;
+			background-repeat: no-repeat;
+		}
+		&-title {
+			font-size: 18px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			color: #404040;
+			margin-bottom: 15px;
+		}
+	}
+}
 
 @import "media";
