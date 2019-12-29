@@ -405,6 +405,7 @@
 		font-weight: 700;
 		color: $title;
 		margin-bottom: 20px;
+		text-transform: uppercase;
 	}
 	&__text {
 		text-align: center;
@@ -465,6 +466,80 @@
 			font-weight: 700;
 			color: #404040;
 			margin-bottom: 15px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+/*********************************************************************************
+*******************************			DIFFERENT 			******************************
+**********************************************************************************/
+
+.different {
+	padding: 80px 0 120px;
+	&__title {
+		text-align: center;
+		font-size: 22px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		color: $title;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+	&__text {
+		text-align: center;
+		margin-bottom: 120px;
+	}
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__inner {
+		max-width: 312px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -90px;
+		margin: 0 auto;
+		padding: 1px;
+		background: linear-gradient(to bottom, rgba(217,217,217,1) 0%, rgba(217,217,217,1) 60%, transparent 100%);
+	}
+	&__content {
+		max-width: 310px;
+		background-color: #fff;
+		padding: 25px 22px;
+	}
+	&__item {
+		max-width: 360px;
+		width: 100%;
+		min-height: 235px;
+		margin-bottom: 115px;
+		cursor: pointer;
+		position: relative;
+		&:hover {
+			.different__item-title {
+				color: $bg;
+			}
+		}
+		&-title {
+			font-size: 17px;
+			color: $title;
+			margin-bottom: 5px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			text-transform: uppercase;
+			transition: all .3s;
+		}
+		&-subtitle {
+			font-size: 12px;
+			color: $title;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			margin-bottom: 15px;
+		}
+		&-text {
+			font-size: 13px;
 		}
 	}
 }
