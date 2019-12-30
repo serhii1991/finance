@@ -587,6 +587,7 @@
 	&__news {
 		max-width: 265px;
 		width: 100%;
+		padding: 0 10px;
 		&-item {
 			display: flex;
 			& + .footer__news-item {
@@ -619,6 +620,7 @@
 	&__links {
 		font-size: 13px;
 		color: #969595;
+		padding: 0 10px;
 	}
 	&__list {
 		column-count: 2;
@@ -639,6 +641,7 @@
 	&__mailing {
 		max-width: 265px;
 		width: 100%;
+		padding: 0 10px;
 		&-text {
 			font-size: 13px;
 			line-height: 22px;
@@ -708,6 +711,7 @@
 	&__about {
 		max-width: 260px;
 		width: 100%;
+		padding: 0 10px;
 		&-text {
 			font-size: 13px;
 			line-height: 22px;
@@ -749,7 +753,7 @@
 		}
 	}
 	&__menu {
-		padding: 25px 0;
+		padding: 25px 10px;
 		background-color: #292929;
 		&-inner {
 			display: flex;

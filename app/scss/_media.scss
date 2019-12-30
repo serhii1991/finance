@@ -1,0 +1,251 @@
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 1400PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 1400px) {
+	.header {
+		&__menu {
+			li {
+				& + li {
+					margin-left: 30px;
+				}
+				a {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 1110PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 1110px) {
+	.services {
+		&__wrapper {
+			position: static;
+		}
+		&__inner {
+			flex-wrap: wrap;
+		}
+		&__content {
+			max-width: 100%;
+			min-height: 380px;
+		}
+		&__items {
+			padding: 60px 30px 0;
+			&-inner {
+				justify-content: center;
+			}
+		}
+	}
+	.footer {
+		&__inner {
+			flex-wrap: wrap;
+		}
+		&__news,
+		&__links,
+		&__mailing,
+		&__about {
+			margin-bottom: 20px;
+		}
+		&__about {
+			max-width: 100%;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 1024PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media (max-width: 1024px) {
+	.header {
+		min-height: 750px;
+		padding: 0 10px;
+		&__top {
+			padding: 40px;
+			position: relative;
+		}
+		&__content {
+			&-inner {
+				min-height: 500px;
+			}
+		}
+		&__menu-list {
+			display: none;
+			position: absolute;
+			top: 100px;
+			width: 100%;
+			left: 0;
+			text-align: center;
+			background-color: #fff;
+			padding: 10px 0;
+			li {
+				display: block;
+				a {
+					color: $text;
+					font-size: 14px;
+					&:hover {
+						color: #000;
+					}
+				}
+				& + li {
+					margin-left: 0;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	.menu__btn {
+		display: flex;
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 952PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media (max-width: 952px) {
+	.experts {
+		&__title {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 768PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media (max-width: 768px) {
+	.header {
+		min-height: 550px;
+		&__suptitle {
+			font-size: 20px;
+		}
+		&__title {
+			font-size: 26px;
+			line-height: 40px;
+		}
+		&__top {
+			padding: 10px 0 0;
+		}
+	}
+	.values {
+		&__content {
+			&-circle {
+				display: none;
+			}
+		}
+		&__image {
+			display: none;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 744PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 744px) {
+
+	.values {
+		&__content {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 729PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 729px) {
+	.core {
+		padding: 40px 0 0;
+		&__inner {
+			justify-content: center;
+		}
+	}
+	.different {
+		padding: 40px 0;
+		&__items {
+			justify-content: center;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 650PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 650px) {
+	.check {
+		&__link {
+			&::before {
+				display: none;
+			}
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 553PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 553px) {
+	.footer {
+		&__inner {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 460PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 460px) {
+	.experts {
+		padding: 60px 0;
+		&__title {
+			font-size: 24px;
+			line-height: 30px;
+		}
+		&__links {
+			a {
+				& + a {
+					margin-left: 0;
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 400PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 400px) {
+	.footer {
+		&__menu {
+			padding: 25px 0;
+			&-list {
+				li {
+					& +li {
+						margin-left: 15px;
+					}
+					a {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA MAX-WIDTH = 340PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media(max-width: 340px) {
+
+	.services {
+		&__content {
+			padding: 40px 0 25px;
+		}
+	}
+}
+
+/*+++++++++++++++++++++++++++++++		MEDIA Min-WIDTH = 1025PX 		+++++++++++++++++++++++++++++++++++*/
+
+@media (min-width: 1025px) {
+	.header {
+		&__menu-list {
+			display: flex !important;
+		}
+	}
+}

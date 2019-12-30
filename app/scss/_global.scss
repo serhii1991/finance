@@ -84,6 +84,22 @@ li {
 	}
 }
 
+.menu__btn {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 30px;
+	height: 25px;
+	border: solid 3px #fff;
+	padding: 2px 0;
+	span {
+		width: 15px;
+		height: 3px;
+		background-color: #fff;
+	}
+}
+
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Playfair Display', serif;
 // font-family: 'Muli', sans-serif;
